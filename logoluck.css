@@ -1,0 +1,75 @@
+#logoluck{
+    position: absolute;
+    top: 0px;
+    left: 118px;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transform: translateX(-100%);
+    transition: transform 200ms linear;
+}
+.menu_open{
+    transform: translateX(0);
+}
+.menu-item{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.493);
+    padding: 20px 15px;
+    background-color:black;
+    padding-left: 20px;
+}
+.menu-item-action{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    
+    
+}
+
+.btnMenu{
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    text-indent: -9999px;
+    padding: 35px 15px;
+    background-color: yellow;
+} 
+
+.btnMenu_open{
+    background-image: url(menupreto.png);
+   
+}
+
+.btnMenu_close{
+    background-color: yellow;
+    background-image: url(menupreto.png);
+    
+}
+
+
+html{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+head{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+ul, ol, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
